@@ -2,6 +2,7 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x:hidden;
 }
 
 /* header */
@@ -13,4 +14,40 @@
     width: 100%;
     
    
+}
+
+
+/* inizio sezione returnal */
+
+.returnal-big{
+    max-width: 100%;
+    position: relative;
+    
+   
+}
+.posizione-testo{
+    position: relative;
+}
+
+
+.returnal-text{
+    color:white;
+    position: absolute;
+    top:70%;
+    left:10%
+   
+}
+
+.returnal-long-text{
+    color:white;
+    position: absolute;
+    top:80%;
+    left:10%
+   
+}
+.returnal-button{
+    color:white;
+    position: absolute;
+    top:90%;
+    left:10% 
 }
