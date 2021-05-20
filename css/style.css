@@ -71,3 +71,51 @@
 .bordo-sotto{
     border-bottom: 2px solid blue;
 }
+/* inizio sezione takes two */
+
+.takes-big{
+    max-width: 100%;
+    position: relative;
+    height:100%;
+    
+   
+}
+.takes-text{
+    color:white;
+    position: absolute;
+    top:50%;
+    left:5%;
+    font-size: 14px;
+   
+}
+
+.takes-long-text{
+    color:white;
+    position: absolute;
+    top:70%;
+    left:5%;
+    font-size: 10px;
+   
+}
+.takes-button{
+    color:white;
+    position: absolute;
+    top:90%;
+    left:5% ;
+   
+}
+.takes-logo{
+    position: absolute;
+    top:20%;
+    left:5% ;
+    height: 30%; 
+}
+
+/* inizio sezione nuove uscite */
+.new{
+    background-color: black;
+    color: white;
+}
+.new-descrizione{
+    color:white
+}
