@@ -50,7 +50,8 @@
     color:white;
     position: absolute;
     top:90%;
-    left:10% 
+    left:10%; 
+    cursor: pointer;
 }
 
 /* sezione ecco la ps5 */
@@ -103,6 +104,7 @@
     position: absolute;
     top:90%;
     left:5% ;
+    cursor: pointer;
    
 }
 .takes-logo{
@@ -135,4 +137,28 @@ color:rgb(66, 65, 65);
     border-radius: 15px;
     color:white;
     font-size: 14px;
+    cursor: pointer;
+}
+
+/* inizio sezione play station plus */
+.play-station-plus{
+    background-color: gray;
+    
+}
+.img-plus{
+    width: 50%;
+    margin-top: 20%;
+    margin-left: 3%;
+}
+.desc-plus{
+    margin-left: 5%; 
+    margin-top: 4%;  
+}
+.plus-button{
+    background-color: rgb(199, 191, 191);
+    width: 190px;
+    padding: 5px 2px;
+    border-radius: 18px;
+    color:blue;
+    cursor: pointer;
 }
