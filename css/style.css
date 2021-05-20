@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     overflow-x:hidden;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* header */
@@ -118,4 +119,20 @@
 }
 .new-descrizione{
     color:white
+}
+
+/* inizio sezione esplora */
+.scritte-grigie{
+color:rgb(66, 65, 65);
+}
+.container-esplora{
+    width:95%;
+}
+.button-scopri{
+    background-color: blue;
+    width: 95px;
+    padding: 7px 4px;
+    border-radius: 15px;
+    color:white;
+    font-size: 14px;
 }
