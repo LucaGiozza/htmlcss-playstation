@@ -4,6 +4,10 @@
     box-sizing: border-box;
     overflow-x:hidden;
     font-family: Arial, Helvetica, sans-serif;
+
+}
+a{
+    text-decoration: none;
 }
 
 /* header */
@@ -29,21 +33,30 @@
 .posizione-testo{
     position: relative;
 }
+.returnal-logo-text{
+    position: absolute;
+    top:40%;
+    left:11%;
+    height: 10%;
+     
+}
 
 
 .returnal-text{
     color:white;
     position: absolute;
-    top:70%;
-    left:10%
+    top:60%;
+    left:10%;
    
 }
 
 .returnal-long-text{
     color:white;
     position: absolute;
-    top:80%;
-    left:10%
+    top:70%;
+    left:10%;
+    max-width: 30%;
+    font-size: 12px;
    
 }
 .returnal-button{
@@ -52,6 +65,42 @@
     top:90%;
     left:10%; 
     cursor: pointer;
+    background-color: red;
+    padding: 6px;
+    border-radius: 15px;
+    font-size: 14px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+    margin-left: 10px;
+}
+.navbar-light .navbar-text{
+    color:black;
+}
+.myplay-nav{
+    margin-right: 20px;
+}
+.accedi-nav{
+    margin-bottom:0;
+    margin-right:20px;
+    background-color: rgb(36, 35, 35);
+    color: white;
+    padding: 7px 9px;
+    border-radius: 16px;
+}
+.iconav{
+    margin-bottom:0;
+    margin-right:20px;
+}
+.return-ratch{
+    width:95%;
+}
+.img-rotonda{
+    border-radius: 15px;
+}
+.img-bordo{
+    border: 2px solid rgb(0, 60, 255);
+    padding: 2px;
 }
 
 /* sezione ecco la ps5 */
