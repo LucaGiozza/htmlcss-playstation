@@ -268,4 +268,34 @@ color:rgb(66, 65, 65);
 }
 
 /* footer */
-
+footer{
+    background-color: blue;
+}
+.footer-logo{
+    height: 70px;
+    max-width:32%;
+}
+.footer-logo-up{
+    margin-left:1%;
+    margin-bottom: 4%;
+    
+    color:white;
+}
+.footer-logo-down{
+    margin-left:5%;
+    height: 40px;
+}
+.footer-logo-text{
+    margin-left: 8%;
+    margin-bottom: 12%;
+    color: white;
+    vertical-align: middle;
+    
+}
+.globo{
+    vertical-align: middle;
+}
+.footer-list li{
+    color:white;
+    cursor:pointer;
+}
