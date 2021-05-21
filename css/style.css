@@ -25,8 +25,10 @@ a{
 /* inizio sezione returnal */
 
 .returnal-big{
-    max-width: 100%;
+    width:100%;
     position: relative;
+    
+   
     
    
 }
@@ -144,9 +146,10 @@ a{
 /* inizio sezione takes two */
 
 .takes-big{
-    max-width: 100%;
+    width: 100%;
     position: relative;
     height:100%;
+    overflow:hidden;
     
    
 }
@@ -229,4 +232,24 @@ color:rgb(66, 65, 65);
     border-radius: 18px;
     color:blue;
     cursor: pointer;
+}
+
+/* inizio sezione play station now */
+
+.play-now{
+    background-color: blue;
+}
+.desc-now{
+    color:white;
+}
+.now-button{
+    background-color: rgb(199, 191, 191);
+    width: 190px;
+    padding: 6px 2px;
+    border-radius: 18px;
+    margin-left: 5%;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 5%;
+    color:black;
 }
