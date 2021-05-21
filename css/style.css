@@ -11,7 +11,11 @@ a{
 }
 
 /* header */
-
+header{
+    position: fixed;
+    width: 100%;
+    z-index:800;
+}
 /* header-top */
 .top{
     background-color: black;
@@ -23,6 +27,9 @@ a{
 
 
 /* inizio sezione returnal */
+.sezione-returnal{
+    margin-top:150px;
+}
 
 .returnal-big{
     width:100%;
@@ -253,3 +260,12 @@ color:rgb(66, 65, 65);
     margin-top: 5%;
     color:black;
 }
+
+/* inizio sezione segici sui social */
+.container-social{
+    max-width:60%;
+    margin:auto;
+}
+
+/* footer */
+
