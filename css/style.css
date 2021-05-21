@@ -44,7 +44,7 @@ header{
 }
 .returnal-logo-text{
     position: absolute;
-    top:40%;
+    top:30%;
     left:11%;
     height: 10%;
      
@@ -54,7 +54,7 @@ header{
 .returnal-text{
     color:white;
     position: absolute;
-    top:60%;
+    top:50%;
     left:10%;
    
 }
@@ -62,16 +62,16 @@ header{
 .returnal-long-text{
     color:white;
     position: absolute;
-    top:70%;
+    top:60%;
     left:10%;
     max-width: 30%;
-    font-size: 12px;
+    font-size: 13px;
    
 }
 .returnal-button{
     color:white;
     position: absolute;
-    top:90%;
+    top:80%;
     left:10%; 
     cursor: pointer;
     background-color: red;
@@ -79,6 +79,28 @@ header{
     border-radius: 15px;
     font-size: 14px;
 }
+@media screen and (max-width:992px) {
+    .returnal-button{
+        font-size:12px;
+        padding:5px;
+        margin-bottom:10%;
+
+
+    }
+    .returnal-long-text{
+      font-size: 12px;
+      max-width:40%;
+      
+     
+
+    }
+    .returnal-text{
+        font-size:14px;
+    }
+    
+}
+
+/* navbar */
 .navbar-light .navbar-nav .nav-link{
     color: black;
     margin-left: 10px;
@@ -163,7 +185,7 @@ header{
 .takes-text{
     color:white;
     position: absolute;
-    top:50%;
+    top:47%;
     left:5%;
     font-size: 14px;
    
@@ -172,9 +194,9 @@ header{
 .takes-long-text{
     color:white;
     position: absolute;
-    top:70%;
+    top:65%;
     left:5%;
-    font-size: 10px;
+    font-size: 15px;
    
 }
 .takes-button{
@@ -187,9 +209,39 @@ header{
 }
 .takes-logo{
     position: absolute;
-    top:20%;
+    top:15%;
     left:5% ;
     height: 30%; 
+}
+.takes-button{
+    background-color: orangered;
+    color:white;
+    padding: 7px;
+    font-size:13px;
+    border-radius:15px;
+}
+
+@media screen and (max-width:992px) {
+    .takes-long-text{
+        font-size:11px;
+       
+        
+    }
+    .takes-text{
+        color:white;
+        position: absolute;
+        top:47%;
+        left:5%;
+        font-size: 13px;
+       
+    }
+    .takes-button{
+        
+        padding: 6px;
+        font-size:11px;
+        
+    }
+    
 }
 
 /* inizio sezione nuove uscite */
@@ -284,6 +336,7 @@ footer{
 .footer-logo-down{
     margin-left:5%;
     height: 40px;
+    margin-bottom:10%;
 }
 .footer-logo-text{
     margin-left: 8%;
@@ -298,4 +351,34 @@ footer{
 .footer-list li{
     color:white;
     cursor:pointer;
+}
+.footer-logo-end{
+    margin-left:-8%;
+    height: 40px;
+    display:none;
+}
+.descrizione-end{
+    display:none;
+    color:white;
+}
+@media screen and (max-width:992px) {
+    .footer-logo-text{
+        margin-left: 8%;
+        margin-bottom: 0%;
+        color: white;
+        vertical-align: middle;
+        
+    } 
+    .footer-logo-down{
+      display:none;
+    } 
+    .footer-logo-end{
+        display:block;
+    }
+    .descrizione-end{
+        display:block;
+        margin-top:2%;
+        padding:20px 20px;
+    }
+    
 }
