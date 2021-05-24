@@ -100,6 +100,19 @@ header{
     
 }
 
+@media screen and (max-width:768px){
+    .returnal-button{
+        font-size:13px;
+        padding:5px;
+        
+        margin-left: 40%;
+
+
+    } 
+    
+}
+
+
 /* navbar */
 .navbar-light .navbar-nav .nav-link{
     color: black;
@@ -238,9 +251,23 @@ header{
     .takes-button{
         
         padding: 6px;
-        font-size:11px;
+        font-size:7px;
+        
         
     }
+    
+}
+@media screen and (max-width:768px) {
+    .takes-button{
+        
+        padding: 6px;
+        font-size:11px;
+        
+        position: absolute;
+        top:85%;
+        left:45%;
+        
+    }  
     
 }
 
@@ -279,6 +306,7 @@ color:rgb(66, 65, 65);
     width: 50%;
     margin-top: 20%;
     margin-left: 3%;
+    
 }
 .desc-plus{
     margin-left: 5%; 
@@ -291,6 +319,28 @@ color:rgb(66, 65, 65);
     border-radius: 18px;
     color:blue;
     cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+    .plus-fotografia{
+        display:none;
+    }
+    .desc-plus{
+         width:80%;
+    }
+    .img-plus{
+        
+        margin-top: 5%;
+        margin-left: 3%;
+        
+    }
+    .plus-button{
+        background-color: rgb(199, 191, 191);
+        margin-left:5%;
+        
+    }
+
+    
 }
 
 /* inizio sezione play station now */
@@ -311,6 +361,9 @@ color:rgb(66, 65, 65);
     font-size: 15px;
     margin-top: 5%;
     color:black;
+}
+@media screen {
+    
 }
 
 /* inizio sezione segici sui social */
