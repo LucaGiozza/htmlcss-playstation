@@ -111,6 +111,20 @@ header{
     } 
     
 }
+@media screen and (max-width:576px) {
+    .returnal-long-text{
+        font-size:9px;
+        max-width: 80%;
+    }
+    .returnal-button{
+        font-size:7px;
+        padding:5px;
+        margin-bottom:10%;
+
+
+    }
+    
+}
 
 
 /* navbar */
