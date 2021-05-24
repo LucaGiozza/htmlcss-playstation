@@ -362,7 +362,10 @@ color:rgb(66, 65, 65);
     margin-top: 5%;
     color:black;
 }
-@media screen {
+@media screen and (max-width:768px) {
+    .now-fotografia{
+        display:none;
+    }
     
 }
 
@@ -406,7 +409,7 @@ footer{
     cursor:pointer;
 }
 .footer-logo-end{
-    margin-left:-8%;
+    margin-left:-2%;
     height: 40px;
     display:none;
 }
@@ -427,6 +430,7 @@ footer{
     } 
     .footer-logo-end{
         display:block;
+        
     }
     .descrizione-end{
         display:block;
