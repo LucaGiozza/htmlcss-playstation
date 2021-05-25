@@ -10,6 +10,14 @@ a{
     text-decoration: none;
 }
 
+
+
+/* sezione navbar nascosta */
+
+li a .first-ps{
+    margin-left: 30%;
+}
+
 /* header */
 header{
     position: fixed;
@@ -24,6 +32,13 @@ header{
     
    
 }
+
+/* sezione dropdown-menu */
+.my-a {
+    color:black;
+}
+
+
 
 
 /* inizio sezione returnal */
