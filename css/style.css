@@ -167,13 +167,19 @@ header{
 }
 .return-ratch{
     width:95%;
+    
 }
 .img-rotonda{
     border-radius: 15px;
 }
+
 .img-bordo{
     border: 2px solid rgb(0, 60, 255);
     padding: 2px;
+}
+.return-ratch img:hover{
+    margin-top:30px;
+    opacity: 70%;
 }
 
 /* sezione ecco la ps5 */
